@@ -1,0 +1,11 @@
+data:
+  raw_path: data/raw/air_quality.csv
+  processed_path: data/processed/air_quality_clean.csv
+
+model:
+  type: RandomForest
+  n_estimators: 200
+  max_depth: 10
+
+app:
+  title: "AQI Prediction Web App"
